@@ -219,7 +219,6 @@ b,strong{color:var(--ink);font-weight:700}
 .tbl .h{font:700 16px/1 var(--body);letter-spacing:.12em;text-transform:uppercase;color:var(--faint);padding:0 14px 14px}
 .tbl .r{display:contents}
 .tbl .r>div{padding:9px 14px;border-top:1px solid var(--line);font-size:20px;line-height:1.35;display:flex;align-items:center;transition:background .2s}
-.tbl .r:hover>div{background:#ECEAE4}
 .slide.active .tbl .r>div{animation:rise .6s cubic-bezier(.2,.7,.2,1) both;animation-delay:calc(var(--r) * 60ms + 250ms)}
 .tbl .t{font-weight:700;color:var(--ink)}
 .chk{display:inline-flex;gap:10px;align-items:flex-start}
@@ -331,6 +330,7 @@ h2{font-size:58px}
 .slide.active .rise{animation-duration:.6s}
 .tile{transition:transform .25s ease,box-shadow .25s ease}
 .tile:hover{transform:translateY(-4px);box-shadow:0 14px 30px rgba(23,32,51,.10)}
+.mstats .tile:hover{transform:none;box-shadow:none}
 .qtbl .r>div{transition:background .2s,opacity .2s}
 .mstats{position:absolute;top:108px;right:128px;display:flex;gap:14px}
 .mstats .tile{width:212px;padding:16px 20px;border-radius:14px}
